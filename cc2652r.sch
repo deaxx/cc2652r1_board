@@ -5877,17 +5877,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="35.56" x2="60.96" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="VDD"/>
 <wire x1="60.96" y1="33.02" x2="68.58" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="IC2" gate="G$1" pin="VDD"/>
 <wire x1="68.58" y1="33.02" x2="83.82" y2="33.02" width="0.1524" layer="91"/>
 <junction x="68.58" y="33.02"/>
-<label x="78.74" y="33.02" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="294.64" y1="38.1" x2="299.72" y2="38.1" width="0.1524" layer="91"/>
-<label x="294.64" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CC2" class="0">
@@ -5963,6 +5957,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U$3" gate="G$1" pin="6"/>
 <wire x1="177.8" y1="22.86" x2="182.88" y2="22.86" width="0.1524" layer="91"/>
 <label x="177.8" y="22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="294.64" y1="38.1" x2="299.72" y2="38.1" width="0.1524" layer="91"/>
+<label x="294.64" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$7" class="0">
